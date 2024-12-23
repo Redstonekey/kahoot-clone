@@ -75,7 +75,7 @@ class Game extends Component {
         });
     }
 
-    timeCheck() {
+timeCheck() {
         let internalTimer = 20;
         let players = [...this.state.players];
 
@@ -99,7 +99,7 @@ class Game extends Component {
         };
 
         const endQuestion = () => {
-            clearInterval(timeKept);
+            clearInterval(this.timeKept); 
             this.questionOver();
         };
 
