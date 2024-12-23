@@ -2,7 +2,7 @@
   "name": "kahoot-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kahoot-clone-1.onrender.com/",
+  "homepage": "https://answers-bennet.netlify.app",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
